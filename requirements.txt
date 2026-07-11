@@ -1,0 +1,14 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+python-dotenv==1.0.1
+requests==2.32.3
+websockets==13.1
+apscheduler==3.10.4
+
+# Multi-agent orchestration
+crewai==0.86.0
+crewai-tools==0.17.0
+
+# MCP server (exposes StudyPilot tools to Claude Desktop / other MCP clients)
+mcp==1.1.2
